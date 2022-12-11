@@ -16,3 +16,18 @@ I have no commercial experience, but I have favorite projects that were created 
 * Git,GitHub
 * VS Code
 
+## Code example
+```
+function count (string) {  
+ let result = {};
+  for(let i = 0; i < string.length; i++){
+    let a = result[string[i]];
+    if(a) {
+       result[string[i]] = a + 1;
+    } else {
+      result[string[i]] = 1;
+    } 
+  }
+  return result;
+}
+```
