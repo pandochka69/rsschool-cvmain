@@ -31,3 +31,7 @@ function count (string) {
   return result;
 }
 ```
+
+## Languages
+* Russian - Native
+* English - A2
